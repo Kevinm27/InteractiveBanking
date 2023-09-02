@@ -1,0 +1,171 @@
+@import "~plaid-threads/scss/variables";
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+
+  .HeaderTitle {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .HeaderLink {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #2c3e50;
+    }
+
+    &:active {
+      background-color: #34495e;
+    }
+  }
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sendRequest {
+  margin: 2 * $unit 2 * $unit $unit 3 * $unit;
+  width: 70%;
+  background-color: #fff; // Changed to white
+  color: #333; // Changed to black for text color
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #2c3e50;
+  }
+
+  &:active {
+    background-color: #34495e;
+  }
+}
+
+.pdf {
+  margin: 0 2 * $unit 0 3 * $unit;
+  width: 70%;
+  background-color: #fff; // Changed to white
+  color: #333; // Changed to black for text color
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #2c3e50;
+  }
+
+  &:active {
+    background-color: #34495e;
+  }
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-bottom: 2 * $unit;
+}
+body {
+  background-color: #333;
+  color: #fff; // Added white text color
+}
+.title {
+  margin-top: 9 * $unit;
+  margin-bottom: 0;
+  font-weight: 800;
+  height: 6 * $unit;
+  text-align: center;
+  font-size: 2rem; /* or any other value that fits your needs */
+  }
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 3 * $unit;
+}
+
+.introPar {
+  width: 100%;
+  font-size: 2 * $unit;
+  margin: 2 * $unit 0;
+}
+
+.linkButton {
+  margin-top: 3 * $unit;
+}
+
+.itemAccessContainer {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  box-shadow: $shadow-small;
+  margin-top: 3 * $unit;
+  border-radius: 2px;
+}
+
+.itemAccessRow {
+  display: flex;
+  border: 1px solid $black200;
+  height: 50%;
+  margin: 0;
+
+  &:last-child {
+    border-top: 0px;
+  }
+}
+
+.idName {
+  padding: 2 * $unit 3 * $unit 2 * $unit 5 * $unit;
+  flex: 1;
+  font-weight: bold;
+  font-family: $font-stack-monospace;
+  color: $white; // Changed to white
+}
+
+.tokenText {
+  padding: 2 * $unit 3 * $unit 2 * $unit 0;
+  flex: 5;
+  font-family: $font-stack-monospace;
+  color: $white; // Changed to white
+}
+
+.requests {
+  margin-top: 7 * $unit;
+  font-size: 2 * $unit;
+  color: $white; // Changed to white
+}
+
+.centerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.roundedButton {
+  border-radius: 25px;
+}
+
+

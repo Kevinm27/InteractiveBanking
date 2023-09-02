@@ -1,0 +1,28 @@
+.categoryProgressBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.categoryBar {
+  display: inline-block;
+  height: 20px;
+  position: relative;
+  border-radius: 3px;
+}
+
+.categoryLabel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+  color: white;
+}
+
+.fixed-size-select {
+  width: 150px; /* Adjust this value to set the desired fixed width */
+}
+
